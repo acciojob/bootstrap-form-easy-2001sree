@@ -14,10 +14,11 @@
 	<!-- the entire body must be written by student -->
 	<form>
 		<h1 style="text-align:center;">Intership Form</h1>
-		<label for="validationCustom01" class="form-label">invalid-feedback</label>
-         <input type="text" class="form-control" id="validationCustom01" required>
+		<div>
 		<label for="first-name-input" class="form-label">First Name</label>
 		<input type="text" id="first-name-input" class="form-control" required>
+		<div class="invalid-feedback" id="first-name-invalid-feedback">
+		</div>
 		<label for="last-name-input" class="form-label">Last Name</label>
 		<input type="text" id="last-name-input"  class="form-control" required>
 		<label for="email-input" class="form-label">Email Address</label>
@@ -33,7 +34,7 @@
 			<option>2022</option>
 			<option>2023</option>
 		</select>
-		<label for="conditions-checkbox" class="form-label">Agree to terms and conditions</label>
+		<label for="conditions-checkbox" class="form-check-input">Agree to terms and conditions</label>
 		<input type="checkbox" id="conditions-checkbox" required>
 		<button style="background-color:blue; color:white;">Submit Form</button>
 	</form>
